@@ -1,13 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Barlow", sans-serif;
+}
+/* header */
+ul li::after {
+  content: "";
+  @apply bg-[#a0a1ac] transition-all absolute bottom-0 left-0 w-0 hover:w-full h-[0.1rem];
+}
+ul li {
+  @apply relative cursor-pointer py-3 w-fit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul span {
+  @apply w-[80%] bg-[#a0a1ac] flex  md:rounded-full h-[0.1rem]  md:h-2 md:w-2;
 }
+ul {
+  @apply p-0 flex-col text-center text-2xl  h-0 overflow-hidden transition-all absolute top-[300%] left-0 z-20 w-full bg-white shadow-2xl  flex      uppercase   md:h-auto    md:shadow-none  md:w-auto md:static md:flex-row   md:bg-transparent   md:flex font-Barlow font-bold text-[#242942]  md:gap-[50px] items-center;
+}
+ul div {
+  @apply flex justify-center py-3 w-full;
+}
+/* header */
+/* app */
+.App {
+  @apply text-[18px]  relative overflow-hidden;
+}
+.App > span {
+  @apply bg-[#eef3f6] rounded-[60px] -translate-y-[50%] translate-x-[50%] -z-10 h-full w-full absolute top-0 right-0;
+}
+.App .article1 {
+  @apply w-4/5 flex flex-col min-h-screen    pt-9 mx-auto;
+}
+/* article */
+.parent-article {
+  @apply md:order-1 py-[60px] md:w-[100%] relative  flex items-center;
+}
+.parent-article > img {
+  @apply !max-w-none w-[500px]   md:absolute relative right-[26px]  md:right-[-600px] md:w-[900px]  lg:w-[1082px];
+}
+/* article */
+/* main */
+.parent-main {
+  @apply uppercase flex flex-col md:justify-center pt-[30px] gap-4 md:gap-7;
+}
+.parent-main button {
+  @apply text-white md:[word-spacing:5px] font-bold rounded-lg text-nowrap md:px-5 md:p-4 px-4 p-3 hover:bg-[#4f2626]  bg-[#ff5c5c] uppercase;
+}
+/* main */
+/* footer */
+footer {
+  @apply text-center py-3 absolute bottom-0 left-[50%] translate-x-[-50%];
+}
+/* footer */

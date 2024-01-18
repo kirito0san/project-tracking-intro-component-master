@@ -11,14 +11,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 68%)
+- Red: hsl(0, 100%, 68%) #ff5c5c
 
 ### Neutral
 
-- Very Dark Blue: hsl(230, 29%, 20%)
-- Dark Grayish Blue: hsl(230, 11%, 40%)
-- Grayish Blue: hsl(231, 7%, 65%)
-- Light Grayish Blue: hsl(207, 33%, 95%)
+- Very Dark Blue: hsl(230, 29%, 20%) #242942
+- Dark Grayish Blue: hsl(230, 11%, 40%) #5b5f71
+- Grayish Blue: hsl(231, 7%, 65%) #a0a1ac
+- Light Grayish Blue: hsl(207, 33%, 95%) #eef3f6
 
 ## Typography
 
