@@ -7,11 +7,12 @@ const Header = () => {
     if (src === `./images/icon-hamburger.svg`) {
       src = `./images/icon-close.svg`;
       srcimg.current.src = src;
+      navDiv.current.classList.toggle(`open`);
     } else {
       src = `./images/icon-hamburger.svg`;
       srcimg.current.src = src;
+      navDiv.current.classList.toggle(`open`);
     }
-    navDiv.current.classList.toggle(`open`);
   };
   return (
     <header className="relative  ">
@@ -28,9 +29,9 @@ const Header = () => {
           <li>Product</li>
           <li>Features</li>
           <li>Pricing</li>
-          <div>
+          <li className="not flex justify-center py-3 w-full">
             <span></span>
-          </div>
+          </li>
           <li className="text-[#a0a1ac]">Login</li>
         </ul>
       </div>

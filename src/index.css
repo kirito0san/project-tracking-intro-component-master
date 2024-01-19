@@ -7,13 +7,13 @@ body {
 }
 /* header */
 .open {
-  @apply h-0 h-[300px] p-5;
+  @apply h-[300px] p-5 md:h-auto;
 }
-ul li::after {
+ul li:not(.not)::after {
   content: "";
   @apply bg-[#a0a1ac] transition-all absolute bottom-0 left-0 w-0 hover:w-full h-[0.1rem];
 }
-ul li {
+ul li:not(.not) {
   @apply relative cursor-pointer py-3 w-fit;
 }
 
@@ -23,9 +23,7 @@ ul span {
 ul {
   @apply p-0 flex-col text-center text-xl  h-0 overflow-hidden transition-all absolute top-[300%] left-0 z-20 w-full bg-white shadow-2xl  flex      uppercase   md:h-auto    md:shadow-none  md:w-auto md:static md:flex-row   md:bg-transparent   md:flex font-Barlow font-bold text-[#242942]  md:gap-[50px] items-center;
 }
-ul div {
-  @apply flex justify-center py-3 w-full;
-}
+
 /* header */
 /* app */
 .App {
@@ -50,7 +48,7 @@ ul div {
   @apply uppercase flex flex-col md:justify-center pt-[30px] gap-4 md:gap-7;
 }
 .parent-main button {
-  @apply text-white md:[word-spacing:5px] font-bold rounded-lg text-nowrap md:px-5 md:p-4 px-4 p-3 hover:bg-[#3e1111]  bg-[#ed4141] uppercase;
+  @apply text-white md:[word-spacing:5px] font-bold rounded-lg text-nowrap md:px-5 md:p-4 px-4 p-3  bg-[#ff5c5c] uppercase;
 }
 /* main */
 /* footer */
