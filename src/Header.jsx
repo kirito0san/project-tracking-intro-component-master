@@ -19,7 +19,7 @@ const Header = () => {
       <div className="flex justify-between  items-center">
         <img className="w-7 h-7" src="./images/logo.svg" alt="" />
         <img
-          className="  md:hidden "
+          className=" aspect-square  md:hidden "
           onClick={HandelClickOpen}
           src="./images/icon-hamburger.svg"
           alt=""
