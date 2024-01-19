@@ -17,9 +17,9 @@ const Header = () => {
   return (
     <header className="relative  ">
       <div className="flex justify-between  items-center">
-        <img className="w-7" src="./images/logo.svg" alt="" />
+        <img className="w-7 h-7" src="./images/logo.svg" alt="" />
         <img
-          className="w-7 md:hidden "
+          className="  md:hidden "
           onClick={HandelClickOpen}
           src="./images/icon-hamburger.svg"
           alt=""

@@ -1,7 +1,7 @@
 const Article = () => {
   return (
     <div className="parent-article ">
-      <img src="./images/illustration-devices.svg" alt="" />
+      <img fetchpriority="high" src="./images/illustration-devices.svg" alt="" />
     </div>
   );
 };
