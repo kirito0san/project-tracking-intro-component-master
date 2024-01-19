@@ -9,7 +9,7 @@ function App() {
       <span></span>
       <article className="article1">
         <Header />
-        <div className="flex flex-col  md:flex-row md:pt-[150px] ">
+        <div className="flex flex-col md:flex-1 md:justify-center md:items-center  md:flex-row  ">
           <Article />
           <Main />
         </div>

@@ -18,7 +18,7 @@ ul span {
   @apply w-[80%] bg-[#a0a1ac] flex  md:rounded-full h-[0.1rem]  md:h-2 md:w-2;
 }
 ul {
-  @apply p-0 flex-col text-center text-2xl  h-0 overflow-hidden transition-all absolute top-[300%] left-0 z-20 w-full bg-white shadow-2xl  flex      uppercase   md:h-auto    md:shadow-none  md:w-auto md:static md:flex-row   md:bg-transparent   md:flex font-Barlow font-bold text-[#242942]  md:gap-[50px] items-center;
+  @apply p-0 flex-col text-center text-xl  h-0 overflow-hidden transition-all absolute top-[300%] left-0 z-20 w-full bg-white shadow-2xl  flex      uppercase   md:h-auto    md:shadow-none  md:w-auto md:static md:flex-row   md:bg-transparent   md:flex font-Barlow font-bold text-[#242942]  md:gap-[50px] items-center;
 }
 ul div {
   @apply flex justify-center py-3 w-full;
