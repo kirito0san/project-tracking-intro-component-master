@@ -36,10 +36,10 @@ ul div {
 }
 /* article */
 .parent-article {
-  @apply md:order-1 py-[60px] md:w-[100%] relative  flex items-center;
+  @apply md:order-1 h-[350px] py-[60px] md:w-[100%] relative  flex items-center;
 }
 .parent-article > img {
-  @apply !max-w-none w-[500px]   md:absolute relative right-[26px]  md:right-[-600px] md:w-[900px]  lg:w-[1082px];
+  @apply !max-w-none w-[575px]   absolute  right-[-246px]  md:right-[-600px] md:w-[900px]  lg:w-[1082px];
 }
 /* article */
 /* main */
