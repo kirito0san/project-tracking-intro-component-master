@@ -1,5 +1,4 @@
 import { useRef } from "react";
-
 const Header = () => {
   let srcimg = useRef(null);
   let navDiv = useRef(null);
@@ -8,16 +7,11 @@ const Header = () => {
     if (src === `./images/icon-hamburger.svg`) {
       src = `./images/icon-close.svg`;
       srcimg.current.src = src;
-      navDiv.current.classList.toggle(`h-0`);
-      navDiv.current.classList.toggle(`h-[300px]`);
-      navDiv.current.classList.toggle(`p-5`);
     } else {
       src = `./images/icon-hamburger.svg`;
       srcimg.current.src = src;
-      navDiv.current.classList.toggle(`p-5`);
-      navDiv.current.classList.toggle(`h-0`);
-      navDiv.current.classList.toggle(`h-[300px]`);
     }
+    navDiv.current.classList.toggle(`open`);
   };
   return (
     <header className="relative  ">

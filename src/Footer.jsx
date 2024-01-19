@@ -1,12 +1,10 @@
 const Footer = () => {
   return (
     <footer>
-      <p className="text-sm ">
+      <div className="text-sm ">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        <p>
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
+        <div>
           Coded by
           <a
             className=" font-bold font-Barlow"
@@ -15,8 +13,8 @@ const Footer = () => {
             Ahmed syed
           </a>
           .
-        </p>
-      </p>
+        </div>
+      </div>
     </footer>
   );
 };

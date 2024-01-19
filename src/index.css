@@ -6,6 +6,9 @@ body {
   font-family: "Barlow", sans-serif;
 }
 /* header */
+.open {
+  @apply h-0 h-[300px] p-5;
+}
 ul li::after {
   content: "";
   @apply bg-[#a0a1ac] transition-all absolute bottom-0 left-0 w-0 hover:w-full h-[0.1rem];
@@ -47,7 +50,7 @@ ul div {
   @apply uppercase flex flex-col md:justify-center pt-[30px] gap-4 md:gap-7;
 }
 .parent-main button {
-  @apply text-white md:[word-spacing:5px] font-bold rounded-lg text-nowrap md:px-5 md:p-4 px-4 p-3 hover:bg-[#4f2626]  bg-[#ff5c5c] uppercase;
+  @apply text-white md:[word-spacing:5px] font-bold rounded-lg text-nowrap md:px-5 md:p-4 px-4 p-3 hover:bg-[#3e1111]  bg-[#ed4141] uppercase;
 }
 /* main */
 /* footer */
